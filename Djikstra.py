@@ -6,7 +6,7 @@ def dijkstra(graph, start):
     heapq.heappush(queue, (0, start))
 
     
-    distances = {vertex: float('infinity') for vertex in graph}
+    distances = {vertex: float('infinity') for vertex in graph}   
     distances[start] = 0
 
     
