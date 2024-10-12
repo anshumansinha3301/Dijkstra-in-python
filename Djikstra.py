@@ -2,7 +2,7 @@ import heapq
 
 def dijkstra(graph, start):
     
-    queue = []
+    queue = []  
     heapq.heappush(queue, (0, start))
 
     
